@@ -80,20 +80,25 @@ justify-content: space-between;
     margin-bottom: 20px;
 
 }
-.line  {
-
-   content: "";
-   flex: 1 1;
-   border-bottom: 3px solid darkgray ;
-   margin: auto;
-}     
+  
     
 
 .line p{
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: darkgray;
-margin: 0 50%;
+display: flex;
+justify-content: center;
+position: relative;
 }
-  
+.line p:before,
+p:after {
+   content: "";
+   flex: 1 1;
+   border-bottom: 3px solid ;
+   margin: auto;
+   
+  }
 
 .Create{
     width: 520px;
